@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # MongoDB connection
-MONGODB_URI = os.environ.get('MONGODB_URI', 'mongodb+srv://vineet:vineet@cluster0.wb48lyw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+MONGODB_URI = os.environ.get('MONGODB_URI', 'mongodb+srv:/uster0')
 DATABASE_NAME = os.environ.get('DATABASE_NAME', 'jiotv_bot')
 
 # Initialize MongoDB client
